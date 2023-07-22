@@ -1,0 +1,20 @@
+/* Rem and em do not depend on html for font size in media querries!
+instead, 1rem = 1em = 16px */
+
+/* ******************** */
+/* Below 1344px (smaller desktops */
+/* ******************** */
+
+@media (max-width: 84em) {
+    .hero {
+        max-width: 120rem;
+    }
+
+    .heading-primary {
+        font-size: 4.4rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
